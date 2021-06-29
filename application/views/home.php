@@ -53,6 +53,17 @@
                             </div>
                         </a>
                     </div>
+
+                    <div class="card category-card col-sm mx-auto">
+                        <a class="card-link" href="items/<?php echo "Food Promo" ?>">
+                            <img src="<?php echo base_url()."assets/images/food categories/promo.jpg"; ?>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Food Promo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class="card category-card col-sm mx-auto">
                         <a class="card-link" href="items/<?php echo "Soups" ?>">
                             <img src="<?php echo base_url()."assets/images/food categories/soups.jpg"; ?>" class="card-img-top" alt="...">
@@ -62,6 +73,7 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="card category-card col-sm mx-auto">
                         <a class="card-link" href="items/<?php echo "Pasta and Noodles" ?>">
                         <img src="<?php echo base_url()."assets/images/food categories/pastaandnoodles.jpg"; ?>" class="card-img-top" alt="...">
@@ -80,6 +92,17 @@
                             </div>
                         </a>
                     </div>
+                    
+                    <div class="card category-card col-sm mx-auto">
+                        <a class="card-link" href="items/<?php echo "Special Deals" ?>">
+                            <img src="<?php echo base_url()."assets/images/food categories/special.jpg"; ?>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Deals</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </a>
+                    </div>
+                    
                     <div class="card category-card col-sm mx-auto">
                         <a class="card-link" href="items/<?php echo "sandwiches" ?>">
                             <img src="<?php echo base_url()."assets/images/food categories/sandwiches.jpg"; ?>" class="card-img-top" alt="...">
