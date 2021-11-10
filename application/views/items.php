@@ -54,7 +54,7 @@
                 <!-- ks single item card (with container) begin -->
                 <?php foreach ($food_menu_tb as $fmt){
 
-                    $image = 'https://www.foursquare.org.ph/giddel/OnlineOrderingSystem/assets/food_menu_images/'. $fmt['image'];
+                    $image = 'https://myhotelsogoapp.com/admin/assets/food_menu_images/'. $fmt['image'];
                     $menuID = $fmt['menu_id'];
                     $name = $fmt['name'];
                     $category = $fmt['category'];
@@ -93,13 +93,14 @@
                                             <div class='input-group input-group-itemcard px-0 input-group-sm mb-3'>
                                                 <input type='number' min='1' max='$aQty' name='quantity' class='form-control quantity' value='1' aria-label='Example text with button addon' aria-describedby='button-addon1' data-toggle='tooltip' data-placement='top' title='Quantity to add' required>
                                                 <div class='input-group-append' data-toggle='tooltip' data-placement='top' title='Quantity available'>
-                                                    <span class='input-group-text' id='basic-addon2'>/$aQty pcs</span>
+                                                    <span class='input-group-text' id='basic-addon2'></span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class='p-2 bd-highlight addtocartcardcolumn'>
-                                            <button type='submit' class='btn btn-sm btn-addtocart' data-toggle='tooltip' data-placement='top' title='Add to tray' id='addtocart'>
-                                                <i class='fas fa-shopping-bag btn-fa-shopping-bag fa-sm'></i>
+                                         <div class='p-2 bd-highlight addtocartcardcolumn'>
+                                            <!-- <button style='width: 120px;' type='submit' class='btn btn-sm btn-addtocart' data-toggle='tooltip' data-placement='top' title='Add to tray' id='addtocart'> -->
+                                            <button style='width: 120px;' type='submit' class='btn btn-sm btn-addtocart' data-toggle='tooltip' data-placement='top' id='addtocart'>
+                                                Add to tray <i class='fas fa-shopping-bag btn-fa-shopping-bag fa-sm'></i>
                                             </button>
                                         </div>
                                     </div>

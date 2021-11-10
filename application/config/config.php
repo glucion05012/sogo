@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = 'https://foursquare.org.ph/giddel/sogo/';
 
-$config['base_url'] = 'http://localhost/sogo';
+$config['base_url'] = 'https://myhotelsogoapp.com/sogo/';
 /*
 |--------------------------------------------------------------------------
 | Index File

@@ -208,6 +208,9 @@
                                 <div class="col-lg-4 col-md-6 mx-auto">
                                     <div class="checkoutstepsheader" style="width:100%;">
                                         <h5>2. Contact Information</h5>
+                                        <div style="color:red; font-size: 8px">
+                                            <?php echo validation_errors(); ?>
+                                        </div>
                                     </div>
                                         <div class="form-group form-check">
                                             <input type="hidden" class="form-check-input" id="checkedIn" name="checkedIn" value = "0">

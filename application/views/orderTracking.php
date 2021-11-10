@@ -141,7 +141,7 @@
                         <?php foreach ($getOrderDetails as $oD) : ?>
                             <div class="row my-0">
                                 <div class="col-12 mx-auto col-sm-4 checkoutImgCol">
-                                    <img class="img-thumbnail checkout-item-img my-4" src="<?php echo 'https://www.foursquare.org.ph/giddel/OnlineOrderingSystem/assets/food_menu_images/'.$oD['image']; ?>" alt="">
+                                    <img class="img-thumbnail checkout-item-img my-4" src="<?php echo 'https://myhotelsogoapp.com/admin/assets/food_menu_images/'.$oD['image']; ?>" alt="">
                                 </div>
                                 <div class="col-12 col-sm-8 p-0 my-4">
                                     <div class="d-flex bd-highlight col-12 p-0">

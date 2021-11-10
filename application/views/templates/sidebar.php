@@ -92,7 +92,7 @@
         <!-- sidebar end -->
 
         <!-- sidebar toggle begin -->
-        <button class='btn s-primary-btn' id="sidebarbtn" onclick="openNav()">
+        <button style='background-color: red; color: white' class='btn s-primary-btn' id="sidebarbtn" onclick="openNav()">
             Tray &nbsp;
             <span class="badge badge-light"><?php echo $itemCount; ?></span>
         </button>
